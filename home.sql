@@ -136,8 +136,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `phone`, `address`, `role`) VALUES
-(2, 'wael', 'alsirafy123@gmail.com', '$2y$10$.Gfd7dvhlKTuOp0BMzbFMeUaLRdIBLJ5k/qWNpUlvwVdi9K4zuT5e', '01068492403', 'alshq', 'admin'),
-(3, 'mahmoud', 'mahmoud@gmail.com', '$2y$10$epPstmAqcI7mbvGi7mQbNe/GP4EMI1axT6Z9DoDdHMBUZ5/fJGx8W', '01068492403', 'alshqia', 'user');
+(2, 'admin', 'admin@gmail.com', '$2y$10$.Gfd7dvhlKTuOp0BMzbFMeUaLRdIBLJ5k/qWNpUlvwVdi9K4zuT5e', '00000000000', 'alshq', 'admin'),
+(3, 'user', 'user@gmail.com', '$2y$10$epPstmAqcI7mbvGi7mQbNe/GP4EMI1axT6Z9DoDdHMBUZ5/fJGx8W', '00000000000', 'alshqia', 'user');
 
 --
 -- Indexes for dumped tables
